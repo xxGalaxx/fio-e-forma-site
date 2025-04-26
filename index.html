@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fio e Forma - Entrelaçar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(#f5f3ea, #fff9f0);
+      color: #333;
+    }
+    header {
+      background: #f5d142;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: #2c3e50;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    section.products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 15px;
+      text-align: center;
+    }
+    .product-info h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .product-info p {
+      font-size: 1.2rem;
+      color: #6b705c;
+    }
+    .buy-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #f5d142;
+      color: #2c3e50;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background 0.3s;
+    }
+    .buy-button:hover {
+      background-color: #ffd700;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Fio e Forma
+</header>
+
+<section class="products">
+
+  <div class="product-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg/640px-Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg" alt="Flor da Rapunzel sem luzes">
+    <div class="product-info">
+      <h2>Flor da Rapunzel sem luzes</h2>
+      <p>R$ 22,75</p>
+      <a class="buy-button" href="https://www.instagram.com/entrelacar.oficial?igsh=MXF0ZW1qaG5lbzI3bg==" target="_blank">Comprar</a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Vincent_van_Gogh_-_Sunflowers_-_VGM_F456.jpg/640px-Vincent_van_Gogh_-_Sunflowers_-_VGM_F456.jpg" alt="Buquê Van Gogh (1 girassol)">
+    <div class="product-info">
+      <h2>Buquê Van Gogh (1 girassol)</h2>
+      <p>R$ 48,60</p>
+      <a class="buy-button" href="https://www.instagram.com/entrelacar.oficial?igsh=MXF0ZW1qaG5lbzI3bg==" target="_blank">Comprar</a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Vincent_van_Gogh_-_Three_Sunflowers_-_Google_Art_Project.jpg/640px-Vincent_van_Gogh_-_Three_Sunflowers_-_Google_Art_Project.jpg" alt="Buquê Van Gogh (3 girassóis)">
+    <div class="product-info">
+      <h2>Buquê Van Gogh (3 girassóis)</h2>
+      <p>R$ 56,80</p>
+      <a class="buy-button" href="https://www.instagram.com/entrelacar.oficial?igsh=MXF0ZW1qaG5lbzI3bg==" target="_blank">Comprar</a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  © 2025 Fio e Forma - Entrelaçar. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
